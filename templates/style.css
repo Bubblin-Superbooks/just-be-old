@@ -1,15 +1,6 @@
 /* Set image on each page with background-image: url(/to/your/comic/assets/images/page-1115x1143-pixels.jpg); */
 /* Layout CSS below is applied to all pages of the comics */
 
-body, html {
-    height: 100vh;
-    width: 100vw;
-    margin: 0 0;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    background-size: 100% 100%;
-}
 
 img {
     border: 0;
@@ -20,7 +11,7 @@ body, html {
     margin: 0 0;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-color: #4e1c21;
+    background-color: #183718;
     background-size: 100% 100%;
     height: 100vh;
     width: 100vw;
