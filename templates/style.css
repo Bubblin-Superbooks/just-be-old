@@ -16,5 +16,59 @@ img {
     -ms-interpolation-mode: bicubic;
 }
 
+body, html {
+    margin: 0 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: #4e1c21;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    font: 4vw/1.3 'Coming Soon', cursive;
+    color: #ffffdf; 
+}
 
-  
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+p {
+    margin: 3vw 0;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+/* Page specific */
+
+.leaf {
+    height: 100%;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+.inner {
+    margin: 12% auto;
+    width: 100%;
+}
+
+.flex {
+    display: -webkit-box;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.right {
+	float: right;
+}
+
+/* Your custom styles below */

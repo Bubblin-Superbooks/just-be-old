@@ -1,0 +1,38 @@
+.profile {
+    height: 50vh;
+}
+
+.white {
+    background: white;
+    color: #000;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.social a{
+    color: #fff;
+}
+
+.side-gap {
+    margin: 0 1vw;
+}
+
+a {
+    color: #05f;
+    outline: 0 none;
+    text-decoration: none;
+    text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+    outline: 0 none;
+    color: #f00;
+}
+
+a:active {
+    color: #0a0;
+}
