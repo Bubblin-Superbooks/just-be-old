@@ -23,6 +23,7 @@ img {
     -ms-interpolation-mode: bicubic;
 }
 
+
 p {
     margin: 3vw 0;
 }
@@ -31,6 +32,27 @@ img {
     border: 0;
     -ms-interpolation-mode: bicubic;
 }
+
+
+a {
+  color: #0077ff;
+  outline: 0 none;
+  text-decoration: none;
+  text-rendering: optimizelegibility;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0 none;
+  color: #070;
+}
+
+a:active {
+  text-shadow: 0 0 2px #fff;
+}
+
+
 
 /* Page specific */
 
@@ -61,4 +83,8 @@ img {
 	float: right;
 }
 
+.center{
+    margin: 0 auto;
+    text-align: center;
+}
 /* Your custom styles below */
